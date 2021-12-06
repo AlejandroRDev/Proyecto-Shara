@@ -1,0 +1,29 @@
+.section2 {
+    max-width: 100vw;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 100px 0px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & img {
+        width: 80%;
+        height: 90%;
+        object-fit: cover;
+    }
+    & ul {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        & li {
+            font-size: 12px;
+            padding: 5px;
+        }
+    } 
+}
